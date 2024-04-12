@@ -66,6 +66,12 @@ const videoInfoSchema = new mongoose.Schema({
     },
     region:{
         type:String,
+    },
+    userUrl:{
+        type:String,
+    },
+    uniqueId:{
+        type:String,
     }
 });
 

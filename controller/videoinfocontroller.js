@@ -45,6 +45,8 @@ module.exports = async function getAllVideoInfo(req, res) {
             if (singleUser) {
                 video.userName = singleUser.name;
                 video.avatar = singleUser.avatar;
+                video.userUrl = singleUser.url;
+                video.uniqueId = singleUser.uniqueId;
             }
         });
 
